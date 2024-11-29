@@ -34,12 +34,11 @@ export function ListingCard({
     <div className="flex flex-col">
       <div className="relative h-72">
         <Image
-          src={`https://glvmmupiqwlmhicmggqp.supabase.co/storage/v1/object/public/images/${imagePath}`}
+          src={`https://bdjebzfdwvekbpfhhvpt.supabase.co/storage/v1/object/public/images/${imagePath}`}
           alt="Image of House"
           fill
           className="rounded-lg h-full object-cover"
         />
-
         {userId && (
           <div className="z-10 absolute top-2 right-2">
             {isInFavoriteList ? (
